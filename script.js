@@ -311,7 +311,7 @@ function changeValue(e) {
     if (e.id === 'nameField') {
       formData.userName = e.value;
       localStorage.setItem('userName', formData.userName);
-    } else if (e.id === 'emailInput' && e.value === value) {
+    } else if (e.id === 'emailField' && e.value === value) {
       formData.userEmail = e.value;
       localStorage.setItem('userEmail', formData.userEmail);
     } else if (e.id === 'msgField') {
